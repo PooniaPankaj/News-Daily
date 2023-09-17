@@ -35,7 +35,7 @@ const News = (props)=> {
   }
   useEffect(() => {
     updatePage();
-    document.title = `NewsMonkey-${CapitalizeFunction(props.category)}`;
+    document.title = `NewsDaily-${CapitalizeFunction(props.category)}`;
   },[])
   
   
@@ -81,7 +81,7 @@ const News = (props)=> {
 
     return (
       <>
-        <h1 className='text-center my-4 pt-5'>NewsMonkey - Top   {CapitalizeFunction(props.category)} HeadLines </h1>
+        <h1 className='text-center my-4 pt-5'>News-Daily Top   {CapitalizeFunction(props.category)} HeadLines </h1>
         
           {/* {this.state.loading && <Spinner/>} */}
           <InfiniteScroll
