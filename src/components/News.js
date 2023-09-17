@@ -92,7 +92,7 @@ const News = (props)=> {
             loader={<Spinner/>}
           >
             <div className="container">
-            <div className='row my-4 '>
+            <div className='row my-4 h-100'>
 
               {Articles.map((element) => {
                 return <div className='col-md-4 h-100 ' key={element.url}>
